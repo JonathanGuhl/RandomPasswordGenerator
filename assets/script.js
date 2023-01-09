@@ -132,61 +132,6 @@ passwordLength = prompt("Enter your desired password length. Pick anything betwe
     userChoices = numbers;
     console.log(userChoices);
   }
-// // Two options selected ------ Lines 83-111 ------ ***** starting all option groups with lowerCase to make it more uniform ******* 
-//   else if (lowerCaseConfirmation && upperCaseConfirmation) {
-//     userChoices = lowerCase.concat(upperCase);
-//     console.log(userChoices);
-//   }
-
-//   else if (lowerCaseConfirmation && numbersConfirmation) {
-//     userChoices = lowerCase.concat(numbers);
-//     console.log(userChoices);
-//   }
-
-//   else if (lowerCaseConfirmation && specialConfirmation) {
-//     userChoices = lowerCase.concat(special);
-//     console.log(userChoices);
-//   }
-
-//   else if (upperCaseConfirmation && numbersConfirmation) {
-//     userChoices = upperCase.concat(numbers);
-//     console.log(userChoices);
-//   }
-
-//   else if (upperCaseConfirmation && specialConfirmation) {
-//     userChoices = numbers.concat(special);
-//     console.log(userChoices);
-//   }
-
-//   else if (specialConfirmation && numbersConfirmation) {
-//     userChoices = special.concat(numbers);
-//     console.log(userChoices);
-//   }
-// // Three options selected ------- LINES 113-131;
-//   else if (lowerCaseConfirmation && upperCaseConfirmation && numbersConfirmation) {
-//     userChoices = lowerCase.concat(upperCase, numbers);
-//     console.log(userChoices);
-//   }
-
-//   else if (lowerCaseConfirmation && upperCaseConfirmation && specialConfirmation) {
-//     userChoices = lowerCase.concat(upperCase, special);
-//     console.log(userChoices);
-//   }
-
-//   else if (lowerCaseConfirmation && specialConfirmation && numbersConfirmation) {
-//     userChoices = lowerCase.concat(special, numbers);
-//     console.log(userChoices);
-//   }
-
-//   else if (upperCaseConfirmation && specialConfirmation && numbersConfirmation) {
-//     userChoices = upperCase.concat(special, numbers);
-//     console.log(userChoices);
-//   }
-// // All options selected
-//   else if (lowerCaseConfirmation && upperCaseConfirmation && numbersConfirmation && specialConfirmation) {
-//     userChoices = lowerCase.concat(upperCase, special, numbers);
-//     console.log(userChoices);
-//   };
 
   var passwordGeneration = [];
 // for loop to generate random characters ---- var passwordGeneration referenced line 15
